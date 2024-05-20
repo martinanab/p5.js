@@ -1,0 +1,47 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+}
+
+1
+ <!DOCTYPEhtml>
+2
+< html  lang = "pt" >
+3
+  < cabeça >
+4
+    < script  src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.js" </ script >
+5
+    < script  src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/addons/p5.sound.min.js" </ script >
+6
+    < link  rel = "folha de estilo"  type = "text/css"  href = "style.css" >
+7
+    < meta  charset = "utf-8"  />
+8
+​
+9
+  </ cabeça >
+10
+  < corpo >
+11
+    <principal>​​
+12
+    </ principal >
+13
+    < script  src = "sketch.js" </ script >
+14
+  </ corpo >
+15
+</html>​​
+16
+​
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
